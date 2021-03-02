@@ -1,0 +1,26 @@
+1/Files in java :
+File handling in java is a very important part in any application
+Files in java have many several method for creating , reading , writing , updating , and deleting files .
+
+2/Java Files Handling :
+The File class in java comes from the java.io.File package , to use the File class we will have to create an object of the class and specify fileName of Directory.
+
+The File class has so many useful methods for creating and getting information about files :
+Examples :
+
+canRead()  ====> Boolean ====> it tests weather the File is readable or not.
+canWrite() ====> Boolean ====> it tests weather the File is Writable or not.
+createNewFile ====> Boolean ====> it creates an empty File
+delete() ====> Boolean ====> it deletes a File
+exists() ====> Boolean ====> it tests if the file exists or not
+getName() ====> String ====> it returns the file name
+getAbsolutePath ====> String ====> it returns the Absolute path of the File
+length() ====> long ====> it returns the size of the file in  bytes
+mKdir() ====> Boolean ====> creates a new directory
+list() ====> String [] =====> returns an Array of the Files in the Directory
+
+
+3/ How to create a File :
+To create a File in java , we will have to use the createNewFile() method , this method return a boolean type , it returns true if the file was successfully created,
+and it returns false if the File already exists , this method has to be enclosed in a try----catch block , using try---catch statement is necessary and very important,
+because it throw an exception if an error occurs ( if the file can not be created for some reason )
